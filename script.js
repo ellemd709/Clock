@@ -25,3 +25,8 @@ dateTime.innerHTML = dayNames[day] + ',' + monthNames[month] + '' + date + ',' +
 
 var time = document.querySelector('.time');
 var dateTime = document.querySelector('.date-time');
+
+updateClock()
+setInterval(updateClock,1000 );
+
+    
