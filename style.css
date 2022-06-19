@@ -9,3 +9,21 @@
     background-color: #69476e;
 }
 
+.time {
+    font-size: 90px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.date-time {
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+@media  screen and (max-width:786px) {
+    .time {
+        font-size: 60px;
+    }
+    
+}
