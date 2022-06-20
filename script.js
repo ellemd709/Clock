@@ -11,9 +11,9 @@ var dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
 var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 hours = hours % 12 || 12;
-minutes = minutes <10 ? '0' + minutes : minutes;
-seconds = seconds <10 ? '0' + seconds : seconds;
-date = date <10 ? '0' + date : date; 
+minutes = minutes < 10 ? '0' + minutes : minutes;
+seconds = seconds < 10 ? '0' + seconds : seconds;
+date = date < 10 ? '0' + date : date; 
 
 var period = hours < 12? 'AM' : 'PM';
 time.innerHTML = hours + ':' + minutes + ':' + seconds + '' + period;
