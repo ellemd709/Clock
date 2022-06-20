@@ -19,6 +19,7 @@
 .date-time {
     font-size: 30px;
     color: antiquewhite;
+    text-align: center;
 }
 
 @media  screen and (max-width:786px) {
