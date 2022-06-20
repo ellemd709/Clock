@@ -15,7 +15,7 @@ minutes = minutes < 10 ? '0' + minutes : minutes;
 seconds = seconds < 10 ? '0' + seconds : seconds;
 date = date < 10 ? '0' + date : date; 
 
-var period = hours < 12? 'AM' : 'PM';
+var period = hours < 12 ? 'AM' : 'PM';
 time.innerHTML = hours + ':' + minutes + ':' + seconds + '' + period;
 dateTime.innerHTML = dayNames[day] + ',' + monthNames[month] + '' + date + ',' + year;
 
@@ -27,6 +27,4 @@ var time = document.querySelector('.time');
 var dateTime = document.querySelector('.date-time');
 
 updateClock()
-setInterval(updateClock,1000 );
-
-    
+setInterval(updateClock, 1000 );
