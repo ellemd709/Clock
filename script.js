@@ -1,3 +1,7 @@
+var time = document.querySelector('.time');
+var dateTime = document.querySelector('.date-time');
+
+function updateClock() {
 var now = new Date();
 var hours = now.getHours();
 var minutes = now.getMinutes();
@@ -18,13 +22,7 @@ date = date < 10 ? '0' + date : date;
 var period = hours < 12 ? 'AM' : 'PM';
 time.innerHTML = hours + ':' + minutes + ':' + seconds + '' + period;
 dateTime.innerHTML = dayNames[day] + ',' + monthNames[month] + '' + date + ',' + year;
+}
 
-
-
-
-
-var time = document.querySelector('.time');
-var dateTime = document.querySelector('.date-time');
-
-updateClock()
+updateClock();
 setInterval(updateClock, 1000 );
