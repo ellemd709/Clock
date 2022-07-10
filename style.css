@@ -8,10 +8,10 @@ body {
 
 .clock {
     align-items: center;
-    background-color: #69476e;
+    background-color: #6e4274;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 400px;
     justify-content: center;
     width: 100%;
@@ -26,7 +26,7 @@ body {
 }
 
 .date-time {
-    color: antiquewhite;
+    color: rgb(226, 180, 119);
     font-size: 30px;
     text-align: center;
 }
